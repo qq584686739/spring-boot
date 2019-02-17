@@ -1263,6 +1263,7 @@ public class SpringApplication {
 	 */
 	public static ConfigurableApplicationContext run(Class<?> primarySource,
 			String... args) {
+		// hello world
 		return run(new Class<?>[] { primarySource }, args);
 	}
 
